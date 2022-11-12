@@ -1,0 +1,54 @@
+:root{
+  --primary-light-blue: #E3F2FD;
+  --primary-200:#90CAF9;
+  --primary-main:#2196F3;
+  --primary-dark:#1E88E5;
+  --primary-800:#1565C0;
+
+  --secondary-light-purple:#EDE7F6;
+  --secondary-200:#B39DDB;
+  --secondary-main:#673AB7;
+  --secondary-dark:#5E35B1;
+  --secondary-800:#7B5BDB;
+
+  --success-light-green:#B9F6CA;
+  --success-200:#69F0AE;
+  --success-main:#00E676;
+  --success-dark:#00C853;
+
+  --error-light-red:#EF9A9A;
+  --error-main:#F44336;
+  --error-dark:#C62828;
+
+  --warning-light-yellow:#FFF8E1;
+  --warning-main:#FFE57F;
+  --warning-dark:#FFC107;
+
+  --grey-50:#FAFAFA;
+  --grey-100:#F5F5F5;
+  --grey-200:#EEEEEE;
+  --grey-300:#E0E0E0;
+  --grey-500:#CCC9C9;
+  --grey-600:#212121;
+  --grey-700:#616161;
+  --grey-900:#212121;
+  
+  --pure-white:#FFFFFF;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family:'Montserrat', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+}

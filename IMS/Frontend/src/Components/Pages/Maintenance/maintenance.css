@@ -1,0 +1,30 @@
+@import '/src/index.css';
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.fe-maintenance{
+    margin:4vh;
+    width:80vw;
+    border-radius: 15px;
+}
+
+.fe-maintenance-cards-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fe-maintenance-table-chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fe-maintenance-table-data{
+    background-color: var(--secondary-200);
+}

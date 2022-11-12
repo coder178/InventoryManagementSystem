@@ -1,0 +1,37 @@
+@import "../../src/index.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.fe-header{
+    /* position:fixed; */
+    display: flex;
+    flex:2;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--primary-light-blue); */
+    height:13vh;
+}
+
+.fe-header-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fe-header img{
+    height:10vh;
+}
+
+.fe-header-profile-logo:hover{
+    background-color: var(--primary-light-blue);
+    border-radius: 5px;
+}
+
+.fe-header h2{
+    font-size:1.7vw;
+    font-weight: 700;
+}
